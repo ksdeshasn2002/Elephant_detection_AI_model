@@ -41,6 +41,19 @@ Despite the limited dataset, the fine-tuned model demonstrates reliable detectio
 
 However, due to the lack of diverse real-world samples, the model currently exhibits vulnerabilities to false positives in highly complex environments (e.g., dense foliage or shadows that mimic animal silhouettes). Furthermore, while the synthetic night-vision augmentation significantly improved low-light performance, it is not a perfect 1:1 substitute for native thermal or IR imagery.
 
+### Training Metrics
+#### stage-1 Base Model Training Results
+![Model Accuracy and Loss](results/base_model_accuracy_loss_plots.png)
+*Figure 1: Base Model Training vs. Validation Accuracy and Loss.*
+
+#### stage-2 Fine Tuning The Model 
+![Model Accuracy and Loss](results/Fine_Tune_accuracy_loss_plots.png)
+*Figure 1: Fine_Tune Training vs. Validation Accuracy and Loss.*
+
+#### comparison between Fine_tune vs. base model training validation accuracy Results
+![Model Accuracy and Loss](results/validation_acc.png)
+*Figure 1: comparing validation accuracy of fine_tuning and base model training*
+
 ---
 
 ### Future Improvements
