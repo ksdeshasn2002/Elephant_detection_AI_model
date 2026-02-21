@@ -1,3 +1,7 @@
+*Project Disclaimer:
+This project is  created as a learning exercise. It was developed with assistance from **Artificial Intelligence** (LLMs).*
+
+
 # Edge AI Vision Model Training Pipeline
 
 This repository contains the complete Machine Learning pipeline used to train, augment, optimize, and quantize a lightweight image classification model for edge devices. 
@@ -60,7 +64,7 @@ However, due to the lack of diverse real-world samples, the model currently exhi
 To push the model's accuracy and robustness further, future iterations of this pipeline will focus on:
 1. **Real Night Data Integration:** Replacing synthetic night-vision data with actual infrared captures from the deployment environment.
 2. **Hard Negative Mining:** Curating a specific dataset of images that frequently confuse the model (e.g., large boulders, specific tree formations, or other large animals like water buffalo) to explicitly train the model on what *not* to detect.
-3. **Hyperparameter Tuning for Size:** Experimenting with the width multiplier (alpha) of the base architecture to shrink the model size below 2MB, which would free up critical heap memory on the target microcontroller for faster network transmissions.
+3. **Increse fine-tuning sample size:** capture and collection actual senarions data and Fine-Tuning with large data set will increse the accuracy.
 
 ---
 
