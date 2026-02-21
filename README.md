@@ -52,7 +52,7 @@ However, due to the lack of diverse real-world samples, the model currently exhi
 
 #### comparison between Fine_tune vs. base model training validation accuracy Results
 ![Model Accuracy and Loss](results/validation_acc.png)
-*Figure 1: comparing validation accuracy of fine_tuning and base model training*
+*Figure 1: comparing validation accuracy of fine_tuning and base model training.*
 
 ---
 
